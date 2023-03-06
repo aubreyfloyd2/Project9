@@ -5,7 +5,7 @@
 #              points. Class named LineSegment with endpoints that returns length, slope, and T/F if parallel.
 
 class Point:
-    """Class with two coordinate data points"""
+    """Class with coordinate data points"""
     def __init__(self, x_coord, y_coord):
         """Initializes data members x and y coordinates"""
         self._x_coord = x_coord
